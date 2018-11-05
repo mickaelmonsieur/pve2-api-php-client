@@ -1,0 +1,24 @@
+{
+    "name": "mickaelmonsieur/pve2-api-php-client",
+    "description": "Client API for Proxmox PVE",
+    "keywords": [
+        "proxmox",
+        "pve2"
+    ],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Nathan Sullivan",
+            "email": "nathan@nightsys.net"
+        },
+        {
+            "name": "Mickael Monsieur",
+            "url": "mickael.monsieur@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "pve2_api.class.php"
+        ]
+    }
+}
